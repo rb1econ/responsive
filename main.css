@@ -9,6 +9,8 @@ main {
 	color: #44126C;
 	width: 80%;
 	margin: 0px auto;
+	border-top-right-radius: 30px;
+	border-top-left-radius: 30px;
 }
 
 header {
@@ -18,6 +20,8 @@ header {
 	width: 100%;
 	margin: 0px auto;
 	border-bottom: 10px solid #B98228;
+	border-top-right-radius: 30px;
+	border-top-left-radius: 30px;
 }
 
 h1 {
@@ -35,8 +39,8 @@ nav {
 	margin: auto;
 	top: 115px;
 	position: relative;
-	border-top-right-radius: 10px;
-	border-top-left-radius: 10px;
+	border-top-right-radius: 30px;
+	border-top-left-radius: 30px;
 	border-bottom: 10px solid #B98228;
 	border-top: 10px solid #B98228;
 }
