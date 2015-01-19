@@ -36,7 +36,9 @@ h1 {
 	font-size: 3rem;
 	text-shadow: 1.1em 0.5em #3EC572, 2.2em 1em #44126C, 3.3em 1.5em #B98228, 4.4em 2em #3EC572, 5.5em 2.5em #44126C;
 }
-
+/*.title {
+	padding-right: 1em;
+}*/
 nav {
 
 	display: inline-block;
@@ -57,7 +59,7 @@ nav a {
 	color: #6C480D;
 	text-shadow: 1.1em 0.5em #B98228, 2.2em 1em #44126C ;
 	text-decoration: none;
-	padding: 1.5em 1em;
+	padding: 1.4em 1em;
 	font-weight: bold;
 }
 
@@ -92,11 +94,21 @@ nav a {
 	html {
 		font-size: 125%;
 	}
-	h1{
+	h1 {
 		text-shadow: 1.1em 0.5em #3EC572, 2.2em 1em #44126C;
+		padding-top: 1em;
 	}
 	.firstRowBut {
 		display: block;
 		clear: both;
+	}
+	nav a {
+		padding: .8em 1em;
+	}
+	.secondRowBut a {
+		padding-bottom: 1em;
+	}
+	header {
+		height: 19em;
 	}
 }
